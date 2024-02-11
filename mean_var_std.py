@@ -3,7 +3,7 @@ import numpy as np
 def calculate(matrix):
 
     if matrix.shape != (3, 3):
-        raise ValueError("Liste dokuz sayı içermelidir.")
+        raise ValueError("List must contain nine numbers.")
 
     result = {
         "mean":{
