@@ -6,9 +6,9 @@ data = pd.read_csv(file_path)
 
 # Races
 race = data["race"].value_counts()
-data_men = data[data["sex"] == "Male"]
 
 # Average age of men
+data_men = data[data["sex"] == "Male"]
 age_average = data_men["age"].mean()
 
 # Bachelor's degree percentage
